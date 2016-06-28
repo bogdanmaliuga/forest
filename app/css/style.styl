@@ -1,0 +1,273 @@
+.container
+	width 90%
+	margin 0 auto
+
+td,th
+	display table-cell
+
+.col
+	width 12%
+	vertical-align middle
+.new-price
+	color #339569
+	font-family h-bold,sans-serif
+.type-1
+	height 70px
+.border
+	border-bottom none
+.left-top
+	width 40%
+.left
+	width 40%
+	text-transform uppercase
+.right 
+	width 60%
+.right-top
+	width 60%
+.right-col
+	width 12%
+a
+	text-decoration: none
+	color:black
+
+clearfix()
+	zoom 1
+	&:after
+	&:before
+		content ""
+		display table
+	&:after
+		clear both
+header
+	.home
+		
+		
+		padding: 5px 0
+		
+		text-align center
+		color white
+		background #222 url('../img/image-top3.jpg') no-repeat center bottom
+		-webkit-background-size cover
+		-moz-background-size cover
+		-o-background-size cover
+		background-size cover
+		h3
+			margin-bottom: 40px;
+			font: 700 30px/40px Arial,sans-serif
+		h1
+			font 700 45px/75px Arial,sans-serif
+		.btn
+			border-radius 3px
+			display inline-block
+			background #339533
+			padding 20px 20px  
+			font 700 24px/19px Arial,sans-serif
+			color white
+			text-transform uppercase
+			
+		
+	nav
+		width 100%
+		background-color: #339533
+		ul
+			overflow hidden
+			margin 0
+			padding 0
+			li
+				&:hover
+					background-color: #339533
+				text-align center
+				width: 20%
+				float left
+				border-radius 3px
+				a
+					display block
+					padding 15px 0px
+					text-transform uppercase
+					color white
+					font 400 24px/19px Arial,sans-serif
+					border-right 1px solid black
+main
+	
+	.main-top
+		background-color: #D7FFF1 
+		.main-top-info
+			width 90%
+			margin-left 5%
+			margin-right 5%	
+			padding-bottom: 20px
+			article
+				
+				p
+					display: block
+					font 400 20px/21px Arial
+					text-align justify
+					-webkit-margin-before:0
+					-webkit-margin-after:10px
+					-webkit-margin-start:0px
+					-webkit-margin-end:0px
+			a.data-readmore-toggle
+				margin-top: 10px
+				color green
+				border-radius 3px
+				display inline-block
+				background #339533
+				padding 5px 5px  
+				font 200 14px/19px Arial,sans-serif
+				color white
+				text-transform uppercase
+	
+	h2.title
+		padding-top: 20px
+		text-align center
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		font:bold 40px/40px Arial,sans-serif;
+		color: #222;
+	
+	.about,.articles
+		.about-info,.articles-info
+			width 90%
+			margin-left 5%
+			margin-right 5%
+			padding-bottom: 30px
+			clearfix()
+			img
+				padding-left 20px
+				
+				float right
+				max-height 500px
+				max-width 700px
+			article
+				
+				p
+					display: block
+					font 400 20px/21px Arial
+					text-align justify
+					-webkit-margin-before:0
+					-webkit-margin-after:10px
+					-webkit-margin-start:0px
+					-webkit-margin-end:0px
+			a.data-readmore-toggle
+				margin-top: 10px
+				color green
+				border-radius 3px
+				display inline-block
+				background #339533
+				padding 5px 5px  
+				font 200 14px/19px Arial,sans-serif
+				color white
+				text-transform uppercase
+					
+
+	.prices
+		
+		background #fff url('../img/image-top6.jpg') center no-repeat
+		background-size: cover
+		padding-top: 20px
+		padding-bottom: 20px
+		background-color: #ABD0CE
+		.price-table
+			width 90%
+			max-width 880px
+			margin 0 auto
+			text-align center
+			vertical-align middle
+			font-size 18px
+			background-color: #FFF
+		
+			thead
+				
+				background-color: #339520
+				color #fff
+				border-bottom 2px solid #000
+				tr
+					td
+						vertical-align middle
+						height 36px
+						border 1px solid black
+			tbody
+				tr
+				
+					td
+						
+						vertical-align middle
+						height 70px
+						border 1px solid black
+						border-bottom none
+		.title-table
+			width 90%
+			max-width 880px
+			text-align center
+			padding 6px 0;
+			background-color: #e8e8e8
+			font 18px h-roman,sans-serif
+			margin 0 auto
+			text-transform: uppercase
+			
+		ul
+			width 90%
+			max-width 880px
+			margin 30px auto 0
+			font-size 16px
+			padding-left: 25px
+			list-style url('../img/list-circle.png')
+			text-transform uppercase
+			font-family Arial
+			color white
+			li
+				margin 0 0 20px 0
+footer
+	position absolute
+	width 100%
+	background-color: #D7FFF1 
+	span
+		
+		text-align center
+		text-transform: uppercase
+		font 400 40px/40px Arial 
+		display block
+		padding 30px
+		width 90%
+		max-width 880px
+		margin 0 auto
+	#feedback-form
+		
+		max-width 400px
+		padding  2%
+		margin 0 auto
+		border-radius 3px
+		background #f1f1f1
+		margin-top: 30px
+	#feedback-form [required]
+		width 100%
+		box-sizing border-box
+		margin 2px 0 2% 0
+		padding 2%
+		border: 1px solid rgba(0,0,0,.1)
+		border-radius: 3px
+		box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent
+	#feedback-form [required]
+		&:hover
+			border-color: #7eb4ea;
+			box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+	#feedback-form [required]
+		&:focus
+			outline: none
+			border-color: #7eb4ea
+			box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5)
+			transition: .2s linear
+	#feedback-form [type="submit"]
+		padding: 2%;
+		border: none;
+		border-radius: 3px;
+		box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+		background: #669acc;
+		color: #fff;
+	#feedback-form [type="submit"]
+		&:hover	
+			background: #5c90c2
+	#feedback-form [type="submit"]
+		&:focus
+			box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05)
+
